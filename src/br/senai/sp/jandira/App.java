@@ -1,11 +1,10 @@
 package br.senai.sp.jandira;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import br.senai.sp.jandira.model.Gerador;
 
 public class App {
     public static void main(String[] args) {
-
+        Gerador animais = new Gerador();
+        animais.inserirNomes();
     }
 }
